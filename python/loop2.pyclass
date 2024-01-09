@@ -1,0 +1,4 @@
+x=input("enter your name:-")
+a=len(x)
+for i in range(0,a,1):
+    print(f"{x[i]}={i}")
